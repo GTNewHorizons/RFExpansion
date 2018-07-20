@@ -34,13 +34,14 @@ public class UpdateNotification
 		
 		try
 		{
-			String[] data = getNotification("https://goo.gl/UGwzkL", true).split("\\n");
+
 			
 			if(BQRF_Settings.hideUpdates)
 			{
 				return;
 			}
-			
+			String[] data = getNotification("https://goo.gl/UGwzkL", true).split("\\n");
+
 			ArrayList<String> changelog = new ArrayList<String>();
 			boolean hasLog = false;
 			
