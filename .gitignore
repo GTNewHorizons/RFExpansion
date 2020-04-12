@@ -212,7 +212,17 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+
+#############
+## IntelliJ
+#############
+
 .gradle/
+.idea/
+jars/
+classes/
+out/
 RF-Expansion.iml
 RF-Expansion.ipr
 RF-Expansion.iws
